@@ -1,7 +1,7 @@
 {
   "name": "tag-checker",
   "version": "0.0.0",
-  "main": "dist/index.js",
+  "main": "dist/tagCheck.js",
   "license": "MIT",
   "engines": {
     "node": ">=14"

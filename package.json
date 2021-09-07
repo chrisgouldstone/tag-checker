@@ -1,0 +1,30 @@
+{
+  "name": "tag-checker",
+  "version": "0.0.0",
+  "main": "dist/index.js",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "lint": "eslint src",
+    "tl": "yarn test && yarn lint"
+  },
+  "dependencies": {
+    "@types/jest": "~27.0.1",
+    "@types/node": "~16.7.10",
+    "@typescript-eslint/eslint-plugin": "~4.30.0",
+    "@typescript-eslint/parser": "~4.30.0",
+    "eslint": "~7.32.0",
+    "eslint-config-airbnb-base": "~14.2.1",
+    "eslint-config-airbnb-typescript": "~14.0.0",
+    "eslint-plugin-import": "~2.24.2",
+    "eslint-plugin-jest": "~24.4.0",
+    "jest": "~27.1.0",
+    "ts-jest": "~27.0.5",
+    "ts-node": "~10.2.1",
+    "typescript": "~4.4.2"
+  }
+}
